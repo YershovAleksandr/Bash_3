@@ -19,15 +19,8 @@ done
 echo "================"
 echo "Wtf??"
 read var
-echo "var = ~$var~"
-test $var -eq 42
-echo "Result = $?"
-read var2
-if [ $var2 -eq 42 ]
+if [ $var -eq 42 ]
 then
 	echo "Hack"
 fi
-echo "Result = $?"
-
-
 
